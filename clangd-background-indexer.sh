@@ -58,7 +58,7 @@ tail -f ${fifo} | $clangd \
 
 clangd_pid=$!
 
-echo "Run $CLANGD (${clangd_pid})..."
+echo "Run $clangd (${clangd_pid})..."
 
 function lsp_msg() {
     msg="$1"
